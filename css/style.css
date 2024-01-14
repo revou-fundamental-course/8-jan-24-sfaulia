@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+header h1{
+    color: ghostwhite;
+    background-color: cadetblue;
+}
+header h4{
+    margin-top: 32px;
+    color: darkslategray;
+}
+header p{
+    margin-top: -10px;
+    font-size: x-small;
+    color: darkslategray;
+}
+
+#squareSide{
+    outline: none;
+    border-radius: 8px;
+    border:solid#3b524b ;
+    padding: 10px;
+
+}
+#squareSide:focus {
+    border: solid#3b524b;
+}
+button{
+    background-color: rgb(78, 106, 193);
+    color: #f1f3f7;
+    border: none;
+    border-radius: 8px;
+    padding:10px 20px ;
+    cursor: pointer;
+}
+button:hover{
+    background-color: aliceblue;
+}
+button:active{
+    background-color: azure;
+    transform: translateY(2px);
+}
