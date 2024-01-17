@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katik Kalkulator Matematika</title>
+    <link rel="icon" type="image/png" href="assets/s.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Hai Sobat, Selamat datang di Katik!</h1>
+        <p>Sebuah web apps sederhana untuk menghitung nilai luas dan keliling bangun datar.</p>
+    </header>
+    <main>
+        <div class="container">
+            <div class="slide slide1">
+                <h3>Persegi</h3>
+                <img src="assets/square.png" alt="persegi">
+                <input type="number" id="square-side" placeholder="Masukkan sisi persegi">
+                <button onclick="hitungLuasPersegi()">Hitung Luas</button>
+                <button onclick="hitungKelilingPersegi()">Hitung Keliling</button>
+                <button onclick="resetPersegi()">Reset</button>
+                <div class="hasil">
+                    <p id="square-luas"></p>
+                    <p id="square-keliling"></p>
+                </div>
+            </div>
+            <div class="slide slide2">
+                <h3>Persegi Panjang</h3>
+                <img src="assets/squarerectangle.png" alt="persegi panjang">
+                <input type="number" id="rectangle-panjang" placeholder="Masukkan panjang persegi panjang">
+                <input type="number" id="rectangle-lebar" placeholder="Masukkan lebar persegi panjang">
+                <button onclick="hitungLuasPersegiPanjang()">Hitung Luas</button>
+                <button onclick="hitungKelilingPersegiPanjang()">Hitung Keliling</button>
+                <button onclick="resetPersegiPanjang()">Reset</button>
+                <div class="hasil">
+                    <p id="rectangle-luas"></p>
+                    <p id="rectangle-keliling"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
